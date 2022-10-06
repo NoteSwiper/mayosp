@@ -1,7 +1,7 @@
-mayld/ - root folder
-├── home - user home folder
-│   ├── public - public shared folder
-│   ├── usr - default user folder
+/ - root folder
+├── home - users folder
+│   ├── public - shared user content folder
+│   ├── usr - primary user folder
 │   │   ├── bin - user binary folder
 │   │   ├── inc - user include folder
 │   │   ├── lib - user library folder
@@ -9,9 +9,9 @@ mayld/ - root folder
 │   │   ├── sbin - user system binary folder
 │   │   ├── share - user shared folder
 │   │   └── src - user source folder
-│   └── usrmake - user maker folder
+│   └── usrmake - user template folder
 │       └── programs - user program folder
-├── mayos - opt-system
+├── mayos - application system
 │   ├── bin - binary
 │   ├── boot - boot loader, sector
 │   ├── device - device locator

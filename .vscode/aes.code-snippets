@@ -20,6 +20,38 @@
 		"body": [
 		  "import(${1:package});"
 		],
-		"description": "Import"
-	}
+		"description": "Import Package"
+	},
+	"Export": {
+		"prefix": "export",
+		"body": [
+			"export(${1:package});"
+		],
+		"description": "Export Package"
+	},
+	"Class": {
+		"prefix": "class",
+		"body": [
+			"class ${1:className} {",
+			"  $2",
+			"}"
+		],
+		"description": "defines class"
+	},
+	"Function": {
+		"prefix": "function",
+		"body": [
+			"function ${1:className}($2) {",
+			"  $3",
+			"}"
+		],
+		"description": "defines function"
+	},
+	"onelineComment": {
+		"prefix": "comment",
+		"body": [
+			"//"
+		],
+		"description": "put single line comment"
+	},
 }
