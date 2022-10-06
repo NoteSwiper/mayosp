@@ -1,6 +1,5 @@
 {
     "material-icon-theme.folders.associations": {
-        
         "may": "Core",
         "localdrive": "Database",
         "usr": "Admin",
@@ -20,7 +19,6 @@
         "opt": "Plugin",
         "sysf": "Tools",
         "srv": "Server",
-        "programs": "App",
-        
+        "programs": "App"
     }
 }
