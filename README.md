@@ -6,5 +6,7 @@
 >
 > the MAY OS's Programming language is inspired by some popular programming language like java, lua, javascript.
 
+May OS is an programming language or oprating system that make coding easier.
+
 the **May OS** project was started to develop in 2019 without Github.
 

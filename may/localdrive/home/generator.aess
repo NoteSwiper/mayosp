@@ -1,0 +1,20 @@
+package mayos.user.generator;
+
+import may.usr;
+
+run(this) if(event onActivate()) {
+    define var array {
+        usr.username;
+        usr.usrpath;
+        usr.func;
+        usr.sysloc;
+        usr.appdata;
+    };
+    usr.username = this.event.rxmsg.username;
+    usr.usrpath = path(/home/[$username]);
+    usr.func = cmd('open /mayos/bin/strtusr.aeexec');
+    usr.sysloc = path(/mayos/);
+    usr.appdata = path(/home/usrmake/programs/);
+
+    may.usr:makeUser(usr.username,usr.usrpath);
+}
