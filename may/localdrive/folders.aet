@@ -1,0 +1,73 @@
+mayld/ - root folder
+├── home - user home folder
+│   ├── public - public shared folder
+│   ├── usr - default user folder
+│   │   ├── bin - user binary folder
+│   │   ├── inc - user include folder
+│   │   ├── lib - user library folder
+│   │   ├── local - user local folder
+│   │   ├── sbin - user system binary folder
+│   │   ├── share - user shared folder
+│   │   └── src - user source folder
+│   └── usrmake - user maker folder
+│       └── programs - user program folder
+├── mayos - opt-system
+│   ├── bin - binary
+│   ├── boot - boot loader, sector
+│   ├── device - device locator
+│   ├── etc - other features
+│   ├── library - libraries of packs
+│   └── sys - system main folder
+├── mdf - may defined folder
+│   ├── media - media includer
+│   ├── mount - temporary mounting
+│   ├── root - temporary rooting structure
+│   └── var - variable folder
+│       ├── cache - cache folder
+│       ├── lib - library folder
+│       ├── log - logging folder
+│       ├── opt - add-on folder
+│       └── tmp - temporary folder
+└── sysf - system app folder
+    ├── log - logging root
+    ├── opt - addon packages
+    ├── sbin - system binary
+    ├── srv - server script, hosting folder
+    └── tmp - folder for temporary saving file
+
+    mayld/ - root folder
+=home - user home folder
+==public - public shared folder
+==usr - default user folder
+===bin - user binary folder
+===inc - user include folder
+===lib - user library folder
+===local - user local folder
+===sbin - user system binary folder
+===share - user shared folder
+===src - user source folder
+==usrmake - user maker folder
+===programs - user program folder
+=mayos - opt-system
+==bin - binary
+==boot - boot loader, sector
+==device - device locator
+==etc - other features
+==library - libraries of packs
+==sys - system main folder
+=mdf - may defined folder
+==media - media includer
+==mount - temporary mounting
+==root - temporary rooting structure
+==var - variable folder
+===cache - cache folder
+===lib - library folder
+===log - logging folder
+===opt - add-on folder
+===tmp - temporary folder
+=sysf - system app folder
+==log - logging root
+==opt - addon packages
+==sbin - system binary
+==srv - server script, hosting folder
+==tmp - folder for temporary saving file 
