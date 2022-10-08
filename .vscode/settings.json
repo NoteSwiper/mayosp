@@ -1,5 +1,24 @@
 {
     "material-icon-theme.folders.associations": {
-        "may": "Core"
+        "may": "Core",
+        "localdrive": "Database",
+        "usr": "Admin",
+        "local": "Client",
+        "sbin": "Packages",
+        "share": "Shared",
+        "usrmake": "Admin",
+        "mayos": "Resource",
+        "boot": "Shared",
+        "device": "Mobile",
+        "sys": "Private",
+        "mdf": "Base",
+        "media": "Images",
+        "mnt": "Client",
+        "root": "Routes",
+        "var": "Interface",
+        "opt": "Plugin",
+        "sysf": "Tools",
+        "srv": "Server",
+        "programs": "App",
     }
 }
