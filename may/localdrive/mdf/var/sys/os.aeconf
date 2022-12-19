@@ -1,0 +1,12 @@
+[System]
+os = %sys.secret.folder%
+
+[Variable]
+var.settings = settings[
+    varPrefix = #var[*]
+]
+variable = list[
+    system = list[
+        bootloader = lib/bootloader/boot.aebls;
+    ]
+]
